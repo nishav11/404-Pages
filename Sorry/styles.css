@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+
+body {
+    padding: 0;
+    margin: 0;
+    background: url(images/background.jpg) no-repeat;
+    background-size: cover;
+}
+
+.nav {
+    position: absolute;
+    top: 40px;
+    left: 47px;
+}
+
+.sorry h1 {
+	color: #fff;
+    position: absolute;
+    top: 34%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0 20px;
+    text-align: center;
+    font-family: 'Lora', serif;
+    font-size: 70px;
+    letter-spacing: .1em;
+    
+}
+
+.content h3 {
+    color: #fff;
+    font-family: 'Lora', serif;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0 50px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    
+}
+
+.home {
+    position: absolute;
+    top: 64%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    color: darkblue;
+    background: #fff;
+    width: 140px;
+    height: 30px;
+    border-radius: 50px;
+    padding-top: 10px;
+    text-align: center;
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    letter-spacing: .1em;
+    cursor: pointer;
+}
+
