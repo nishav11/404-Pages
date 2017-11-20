@@ -1,0 +1,77 @@
+body, div, h1, button{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+   
+    background: url(images/backg.jpg) no-repeat 50% 11%;
+    background-size: cover;
+
+    
+}
+
+.first h1{
+	position: absolute;
+    color: #fff;
+    font-family: sans-serif;
+    font-size:24px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 12%;
+    padding-right: 8%;
+     word-spacing: 100vw;
+    
+  
+}
+
+.border {
+    position: absolute;
+    background: #eee;
+   
+    width: 300px;
+    height: 3px;
+    margin-top: 250px;
+    margin-left: 540px;
+    transform: rotate(-40deg);
+   
+    
+   
+}
+
+.second h1 {
+	position: absolute;
+    display: block;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 19%;
+    padding-left: 7%;
+    word-spacing: 100vw;
+}
+
+.home {
+    position: absolute;
+    margin-left: 630px;
+   
+    
+    margin-top: 440px;
+    border: 1px solid #fff;
+    width: 140px;
+    height: 30px;
+    padding-top: 10px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    
+}
+.home:hover {
+	background: #fff;
+    opacity: 0.3;
+    color: blue;
+    transition: 0.3s all ease-in;
+}
+
+
